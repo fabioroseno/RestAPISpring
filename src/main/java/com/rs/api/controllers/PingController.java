@@ -13,7 +13,7 @@ public class PingController {
 	@GetMapping
 	@ResponseStatus( code = HttpStatus.OK )
 	public String ping() {
-		String text = "Fábio!\nTudo OK! \nArrepia!";
+		String text = "API Spring Started!";
 		System.out.println(text);
 		return text;
 	}
